@@ -19,4 +19,4 @@ elif delta == 0:
     raiz = -b / (2*a)
     print('Portanto, o gráfico da função encontrará o eixo x em um ponto, em', raiz)
 else:
-    print('Como o valor de delta é menor que zero, teremos raízes não reais.')
+    print('Como o valor de delta (',delta,') é menor que zero, teremos raízes não reais.')
