@@ -1,1 +1,0 @@
-digitos_adjacentes
