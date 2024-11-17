@@ -27,13 +27,13 @@ print(len(lista))
 
 
 valor=float (input('Digite uma sequência de números quaisquer, quando terminar de digitar, digite 0(zero): '))
-i=0
-if valor == 0:
+while valor != 0:
     lista.append(valor)
     valor = 0
     valor=float (input('Digite uma sequência de números quaisquer, quando terminar de digitar, digite 0(zero): '))
-else:
-    for i in range (len(lista),-1): 
-        print (lista [i])
+tam=len(lista)-1
+while tam>=0:
+    print(lista[tam], end=', ')
+    tam -=1
     
 
