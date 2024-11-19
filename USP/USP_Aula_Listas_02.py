@@ -53,6 +53,11 @@ print('Trabalhando com range (ini, fim, step)')
 for i in range(20,-10,-2):
     print(i)
     
+print('Pedaços de listas')
+print('Tamanho da lista',len(lista))
+print(lista[2:5])
+print(lista[4:])
+print(lista[:5])
 
 
 
