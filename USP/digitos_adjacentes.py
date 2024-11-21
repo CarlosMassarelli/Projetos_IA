@@ -1,5 +1,7 @@
 def tem_digitos_adjacentes_iguais(numero):
     """
+    Apenas um BRANCH
+    
     Verifica se o número tem dois ou mais dígitos adjacentes iguais e retorna esses dígitos.
 
     Args:

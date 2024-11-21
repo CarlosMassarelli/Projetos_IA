@@ -1,1 +1,0 @@
-n range(2, int(num ** 0.5) +
